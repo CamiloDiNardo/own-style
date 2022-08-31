@@ -1,0 +1,20 @@
+[
+  {
+    "images": "images/Commode.png",
+    "article": "Commode",
+    "alt": "Commode",
+    "space": "Bedroom"
+  },
+  {
+    "images": "images/MouseTable.png",
+    "article": "Mouse Table",
+    "alt": "Mouse Table",
+    "space": "Living/Dinning"
+  },
+  {
+    "images": "images/Chair.png",
+    "article": "Chair",
+    "alt": "Chair",
+    "space": "Kitchen"
+  }
+]

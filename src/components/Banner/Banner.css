@@ -1,0 +1,20 @@
+@media screen and (max-width: 50rem) {
+  .banner-sillon {
+    height: 31.25rem;
+    background-size: 80cm;
+    background-position: left;
+  }
+  .banner-sillon p {
+    padding-top: auto;
+    font-size: 3.75rem;
+  }
+}
+@media screen and (min-width: 50.0625rem) and (max-width: 73.75rem) {
+  .banner-sillon {
+    height: 43.75rem;
+  }
+  .banner-sillon p {
+    padding-top: 12.5rem;
+    font-size: 7.5rem;
+  }
+}

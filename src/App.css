@@ -1,0 +1,17 @@
+* {
+  margin: 0rem;
+  padding: 0rem;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 50rem) {
+  header {
+    height: 13.75rem;
+  }
+}
+@media screen and (min-width: 50.0625rem) and (max-width: 73.75rem) {
+  header {
+    height: 15.625rem;
+  }
+}

@@ -1,0 +1,302 @@
+/*Formulario Partido*/
+.footer-contenedor {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #000;
+  height: 37.5rem;
+  width: 100%;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.formulario {
+  font-size: 3.125rem;
+}
+.formInner {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  width: 40.625rem;
+}
+.form-contenedor,
+.form-content2 {
+  width: 21.875rem;
+  height: 25rem;
+}
+
+.form-content2 input,
+select,
+.form-contenedor input {
+  color: #fff;
+  background: #000;
+  outline: none;
+  font-size: 1.5625rem;
+  border: none;
+  border-bottom: 0.1875rem solid #00ffff;
+  width: 90%;
+  height: 4.375rem;
+}
+input::placeholder {
+  color: rgb(218, 17, 17);
+}
+.form-contenedor label,
+.form-content2 label {
+  font-size: 1.875rem;
+  font-family: 'Barlow', sans-serif;
+}
+.form-contenedor,
+.form-content2 {
+  width: 21.875rem;
+  height: 25rem;
+}
+.form-content2 input,
+select,
+.form-contenedor input {
+  color: #fff;
+  background: #000;
+  outline: none;
+  font-size: 1.5625rem;
+  border: none;
+  border-bottom: 0.1875rem solid #00ffff;
+  width: 90%;
+  height: 4.375rem;
+}
+.form-contenedor label,
+.form-content2 label {
+  font-size: 1.875rem;
+  font-family: 'Barlow', sans-serif;
+}
+/*Boton Formulario*/
+.button {
+  text-align: right;
+  padding-top: 1.25rem;
+  width: 17.8125rem;
+  height: 8.125rem;
+  margin-top: 0.625rem;
+}
+button {
+  font-family: 'Barlow', sans-serif;
+  background: #008000;
+  color: #fff;
+  border: none;
+  width: 5.8125rem;
+  height: 2.6875rem;
+  font-size: 1.5625rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 1000;
+}
+/*Derechos Reservados*/
+.boton2-p {
+  font-size: 1.5625rem;
+}
+/* Frase De envio del form*/
+.ContenedorEnvioExitoso {
+  width: 18.75rem;
+  height: 3.75rem;
+  background-color: rgb(128, 228, 128);
+  margin-top: 3.75rem;
+}
+.envioExitoso {
+  font-size: 1.5625rem;
+  width: 18.75rem;
+  text-transform: uppercase;
+  color: #06b8b8;
+  text-align: center;
+}
+/* seccion de contacto*/
+.contact-container {
+  text-align: center;
+  width: 15.625rem;
+  height: 18.75rem;
+}
+.contact-container h1 {
+  font-size: 3.125rem;
+}
+.contact-container p {
+  font-family: 'Barlow', sans-serif;
+  font-size: 1.375rem;
+  padding-top: 0.625rem;
+  text-align: left;
+  padding-left: 1.875rem;
+}
+.ContactSvg {
+  filter: invert(87%) sepia(50%) saturate(3055%) hue-rotate(52deg)
+    brightness(95%) contrast(92%);
+  width: 1.875rem;
+  font-size: 1.375rem;
+  float: left;
+}
+/*Seccion de Horarios*/
+.Horarios-container {
+  width: 15.625rem;
+  height: 12.5rem;
+  text-align: center;
+}
+.Horarios-container p {
+  font-family: 'Barlow', sans-serif;
+  font-size: 1.375rem;
+  padding-top: 0.625rem;
+}
+.horarios {
+  font-size: 3.125rem;
+}
+.derechos {
+  display: flex;
+  width: 100%;
+  height: 6rem;
+  background: #66a804;
+  justify-content: center;
+  align-items: center;
+}
+.derechos p {
+  font-size: 1.5625rem;
+  color: #fff;
+}
+@media screen and (max-width: 50rem) {
+  .footer-contenedor {
+    flex-direction: column;
+    height: 93.75rem;
+    justify-content: space-evenly;
+  }
+  /* formulario separado Responsive */
+  .formulario {
+    text-align: center;
+  }
+  .formInner {
+    flex-direction: column;
+    height: 40rem;
+    width: 22.5rem;
+    align-content: center;
+  }
+  .form-contenedor,
+  .form-content2 {
+    align-content: center;
+    width: 100%;
+    height: 21.875rem;
+    margin-left: 20%;
+  }
+  .form-content2 {
+    margin-top: -5rem;
+  }
+
+  .form-content2 input,
+  select,
+  .form-contenedor input {
+    font-size: 1.875rem;
+    width: 90%;
+    height: 3.125rem;
+  }
+  .button {
+    text-align: center;
+    height: 5rem;
+  }
+  button {
+    width: 6.25rem;
+  }
+  /* Frase De envio del form Responsive*/
+  .ContenedorEnvioExitoso {
+    border-radius: 0.1875rem;
+    width: 16.875rem;
+  }
+  /* seccion de contacto Responsive*/
+  .contact-container {
+    margin-top: 5rem;
+    align-self: center;
+    width: 80%;
+    height: 13.125rem;
+  }
+  .contact-container p {
+    font-size: 1.6875rem;
+    padding-left: none;
+  }
+  .ContactSvg {
+    width: 2.8125rem;
+    font-size: 1.875rem;
+  }
+  /* seccion de horarios Responsive */
+  .Horarios-container {
+    height: auto;
+    align-self: center;
+  }
+
+  .Horarios-container p {
+    font-size: 1.6875rem;
+  }
+  .derechos {
+    height: 9.375rem;
+  }
+}
+@media screen and (min-width: 50.0625rem) and (max-width: 73.75rem) {
+  .footer-contenedor {
+    height: 62.5rem;
+  }
+  /* Formulario separado Responsive.*/
+  .formInner {
+    width: 100%;
+    justify-content: center;
+  }
+  .form-contenedor,
+  .form-content2 {
+    width: 25rem;
+  }
+  .form-contenedor input,
+  .form-content2 input,
+  select {
+    font-size: 2.5rem;
+  }
+  .form-contenedor label,
+  .form-content2 label {
+    font-size: 2.8125rem;
+  }
+  .button {
+    position: relative;
+    left: -7.5rem;
+    height: 6.25rem;
+    width: 13.75rem;
+  }
+  .button button {
+    font-size: 2.8125rem;
+    width: 12.5rem;
+    height: 3.75rem;
+  }
+  /* Frase De envio del form*/
+  .ContenedorEnvioExitoso {
+    position: relative;
+    left: -3.125rem;
+    top: -1.875rem;
+    height: 6.25rem;
+    width: 21.875rem;
+  }
+  .envioExitoso {
+    font-size: 2.1875rem;
+    height: 6.25rem;
+    width: 21.875rem;
+  }
+  /* seccion de contacto Responsive*/
+  .contact-container,
+  .Horarios-container {
+    position: relative;
+    top: 8.75rem;
+  }
+  .contact-container {
+    width: 22.5rem;
+  }
+  .contact-container p {
+    font-size: 2.1875rem;
+    padding-left: 3.75rem;
+  }
+  .ContactSvg {
+    font-size: 2.5rem;
+  }
+  /* seccion de horarios Responsive */
+  .Horarios-container p {
+    font-size: 2.1875rem;
+  }
+  .derechos {
+    height: 12.5rem;
+  }
+  .derechos p {
+    font-size: 3.125rem;
+  }
+}

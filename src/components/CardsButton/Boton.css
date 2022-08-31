@@ -1,0 +1,17 @@
+@media screen and (max-width: 50rem) {
+  .boton {
+    left: 30%;
+  }
+  .aviso-cookies .boton {
+    font-size: 1.5625rem;
+  }
+}
+@media screen and (min-width: 50.0625rem) and (max-width: 73.75rem) {
+  .boton {
+    width: 12.5rem;
+    height: 4.375rem;
+  }
+  .boton button {
+    height: 100%;
+  }
+}

@@ -1,0 +1,25 @@
+@media screen and (max-width: 50rem) {
+  /* Cards Responsive*/
+  .contenedor-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card {
+    margin-bottom: 0.625rem;
+  }
+}
+@media screen and (min-width: 50.0625rem) and (max-width: 73.75rem) {
+  /* Cards Responsive*/
+  .contenedor-cards {
+    align-content: none;
+  }
+  .card img {
+    width: 12.5rem;
+  }
+  .card h1 {
+    margin-top: 1.25rem;
+  }
+  .card p {
+    font-size: 2.1875rem;
+  }
+}
