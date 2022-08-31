@@ -1,7 +1,0 @@
-{
-  //Para ocultar archivos (en este caso css)
-  "files.exclude": {
-    "**/*.css": true
-  },
-  "editor.formatOnSave": true
-}
